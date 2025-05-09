@@ -1,0 +1,93 @@
+:root {
+  /* 
+    Primitves
+  */
+
+  /* Typography */
+  --font-main: 'Open Sans', sans-serif;
+  --font-headings: 'Open Sans', sans-serif;
+
+  /* @link https://utopia.fyi/type/calculator?c=320,18,1.2,1240,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+  --text-xs: clamp(0.7813rem, 0.7747rem + 0.0326vw, 0.8rem);
+  --text-sm: clamp(0.9375rem, 0.9158rem + 0.1087vw, 1rem);
+  --text-base: clamp(1.125rem, 1.0815rem + 0.2174vw, 1.25rem);
+  --text-lg: clamp(1.35rem, 1.2761rem + 0.3696vw, 1.5625rem);
+  --text-xl: clamp(1.62rem, 1.5041rem + 0.5793vw, 1.9531rem);
+  --text-2xl: clamp(1.944rem, 1.771rem + 0.8651vw, 2.4414rem);
+  --text-3xl: clamp(2.3328rem, 2.0827rem + 1.2504vw, 3.0518rem);
+  --text-4xl: clamp(2.7994rem, 2.4462rem + 1.7658vw, 3.8147rem);
+
+  /* Colours */
+
+  /* Base colors converted to HSL */
+  --color-primary: hsl(39, 74%, 95%); /* #fcf5e9 */
+  --color-background: hsl(0, 0%, 100%); /* #ffffff */
+  --color-background-inverted: hsl(0, 0%, 25%);
+  --color-text: hsl(0, 0%, 0%); /* #000000 */
+  --color-text-inverted: hsl(0, 0%, 100%); /* #ffffff */
+
+  /* Primary color variations */
+  --color-primary-light: hsl(39, 74%, 98%);
+  --color-primary-dark: hsl(39, 74%, 85%);
+  --color-primary-muted: hsla(39, 74%, 95%, 0.6);
+
+  /* Text color variations */
+  --color-text-light: hsl(0, 0%, 25%);
+  --color-text-muted: hsl(0, 0%, 45%);
+  --color-text-disabled: hsl(0, 0%, 65%);
+
+  /* Functional colors */
+  --color-success: hsl(150, 60%, 40%);
+  --color-warning: hsl(40, 90%, 50%);
+  --color-error: hsl(0, 70%, 50%);
+  --color-info: hsl(200, 60%, 50%);
+
+  /* Border colors */
+  --color-border: hsl(39, 15%, 85%);
+  --color-border-light: hsl(39, 15%, 92%);
+
+  /* Shadow with your primary color influence */
+  --color-shadow: hsla(39, 10%, 30%, 0.1);
+
+  /* Core spacing scale */
+  --space-3xs: 0.125rem; /* 2px */
+  --space-2xs: 0.25rem; /* 4px */
+  --space-xs: 0.5rem; /* 8px */
+  --space-sm: 0.75rem; /* 12px */
+  --space-md: 1rem; /* 16px */
+  --space-lg: 1.5rem; /* 24px */
+  --space-xl: 2rem; /* 32px */
+  --space-2xl: 3rem; /* 48px */
+  --space-3xl: 4rem; /* 64px */
+  --space-4xl: 6rem; /* 96px */
+
+  /* Border radius scale */
+  --radius-none: 0;
+  --radius-xs: 0.125rem; /* 2px */
+  --radius-sm: 0.25rem; /* 4px */
+  --radius-md: 0.5rem; /* 8px - primary value */
+  --radius-lg: 0.75rem; /* 12px */
+  --radius-xl: 1rem; /* 16px */
+  --radius-2xl: 1.5rem; /* 24px */
+  --radius-full: 9999px; /* For circles and pills */
+
+  /* 
+   **** Semantics ******
+   */
+
+  --container-max-width: 1100px;
+  --container-max-width-sm: 900px;
+  --container-max-width-lg: 1400px;
+  --container-padding: var(--space-lg);
+  --gutter: var(--space-lg);
+
+  /* Component-specific border radius */
+  --radius-button: var(--radius-md);
+  --radius-card: var(--radius-md);
+  --radius-input: var(--radius-md);
+  --radius-badge: var(--radius-full);
+  --radius-tooltip: var(--radius-sm);
+  --radius-avatar: var(--radius-full);
+  --radius-checkbox: var(--radius-xs);
+}

@@ -1,0 +1,56 @@
+:root {
+  /* 
+    Semantics 
+  */
+
+  /* Container max-widths */
+  --container-max-width: 1100px;
+  --container-max-width-sm: 60ch;
+  --container-max-width-lg: 1400px;
+  --container-padding: var(--space-lg);
+  --gutter: var(--space-lg);
+
+  /* 
+    Typography 
+  */
+
+  /* Headings */
+  --heading-h1: var(--text-4xl);
+  --heading-h2: var(--text-3xl);
+  --heading-h3: var(--text-2xl);
+  --heading-h4: var(--text-xl);
+  --heading-h5: var(--text-lg);
+  --heading-h6: var(--text-base);
+
+  /* Paragraphs */
+  --text-paragraph: var(--text-base);
+  --text-paragraph-lead: var(--text-lg);
+  --text-paragraph-small: var(--text-sm);
+
+  /* Labels */
+  --text-label: var(--text-sm);
+  --text-label-small: var(--text-xs);
+  --text-label-large: var(--text-base);
+
+  /* Other semantic text elements */
+  --text-button: var(--text-sm);
+  --text-caption: var(--text-xs);
+  --text-blockquote: var(--text-lg);
+  --text-eyebrow: var(--text-xs);
+  --text-nav: var(--text-sm);
+  --text-footer: var(--text-xs);
+  --text-hero: var(--text-4xl);
+
+  /* 
+    Radius
+  */
+
+  /* Component-specific border radius */
+  --radius-button: var(--radius-md);
+  --radius-card: var(--radius-md);
+  --radius-input: var(--radius-md);
+  --radius-badge: var(--radius-full);
+  --radius-tooltip: var(--radius-sm);
+  --radius-avatar: var(--radius-full);
+  --radius-checkbox: var(--radius-xs);
+}
