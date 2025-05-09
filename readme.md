@@ -30,8 +30,8 @@ The website follows a simple structure:
 - `index.html` - Main entry point and homepage
 - `css/` - Stylesheet files
 - `js/` - JavaScript files
+- `lib` - External libraries
 - `images/` - Photography and other image assets
-- `icons/` - Site icons and favicons
 
 ## Contact
 
